@@ -688,6 +688,57 @@ footer::after{
 }
 .foot-dossier span{font-family:'IBM Plex Mono',monospace;font-size:8px;color:var(--dim);letter-spacing:0.12em}
 
+@media (max-width: 900px) {
+  nav{padding:0 4vw;}
+  .nav-links{gap:10px;justify-content:center;flex-wrap:wrap;}
+  .nav-links a{font-size:10px;}
+  section{padding:80px 5vw;max-width:100%;}
+  #hero{min-height:auto;padding:80px 4vw 40px;overflow:visible;}
+  .hero-inner{grid-template-columns:1fr;gap:30px;justify-items:center;text-align:center;}
+  .hero-desc{margin:0 auto 28px;}
+  .hero-btns{justify-content:center;}
+  .avatar-wrap{margin:0 auto;width:220px;max-width:80vw;}
+  .avatar-ring-outer{width:220px;height:220px;}
+  .metrics{grid-template-columns:1fr;}
+  .proj-cols{grid-template-columns:1fr;}
+  .certs-grid{grid-template-columns:1fr;}
+  .pillars{grid-template-columns:1fr;}
+  .contact-grid{grid-template-columns:1fr;}
+  .footer-top{flex-direction:column;}
+  .proj-img-wrap{height:180px;}
+  .img-divider{width:100%;height:auto;}
+  .sec-sub{max-width:100%;margin-bottom:32px;}
+  .proj-content{padding:18px 18px;}
+  .tl-card{flex-direction:column;gap:12px;}
+  .tl-item{margin-bottom:24px;}
+  .footer-sub{max-width:100%;}
+  .hero-inner .avatar-wrap{justify-self:center;}
+  .cert-row{flex-direction:column;align-items:flex-start;gap:6px;}
+  .cert-card{padding:16px;min-height:360px;}
+  .cert-thumb{height:200px;}
+  .cert-top{flex-direction:column;align-items:flex-start;gap:12px;}
+  .contact-card{padding:18px;}
+}
+
+@media (max-width: 600px) {
+  .hero-inner{gap:24px;}
+  .avatar-wrap{width:180px;}
+  .avatar-ring-outer{width:180px;height:180px;}
+  .hero-name{font-size:clamp(36px,10vw,56px);}
+  .hero-desc{font-size:15px;line-height:1.8;}
+  .hero-btns{gap:10px;}
+  .btn{font-size:10px;padding:10px 22px;}
+  .metric{padding:14px 16px;}
+  .metric-val{font-size:22px;}
+  .cert-thumb{height:180px;}
+  .cert-card{min-height:320px;}
+  .sec-head{font-size:clamp(28px,10vw,42px);}
+  .proj-img-wrap{height:150px;}
+  .contact-grid{gap:14px;}
+  .footer-top{gap:24px;}
+  .nav-links a{font-size:9px;}
+}
+
 /* ═══════════════════════════════════════════
    ANIMATIONS
 ═══════════════════════════════════════════ */
